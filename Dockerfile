@@ -10,4 +10,4 @@ RUN useradd -ms /bin/bash user
 USER user
 WORKDIR /home/user
 
-CMD bash
+CMD /bin/bash
