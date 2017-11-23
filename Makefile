@@ -6,3 +6,7 @@ image:
 
 run:
 	docker run --interactive --tty $(TAG)
+
+push: image
+	# Need to run `docker login` before this
+	docker push $(TAG)
