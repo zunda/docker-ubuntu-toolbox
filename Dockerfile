@@ -5,7 +5,8 @@ RUN apt-get update && apt-get install -y \
 	jq \
 	openssl \
 	ca-certificates \
-	vim-nox
+	vim-nox \
+	bsdmainutils
 
 RUN useradd -ms /bin/bash user
 USER user
