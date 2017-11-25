@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
 	openssl \
 	ca-certificates \
 	vim-nox \
-	bsdmainutils
+	bsdmainutils \
+	man manpages manpages-dev
 
 RUN useradd -ms /bin/bash user
 USER user
