@@ -8,6 +8,12 @@ Create an image
 $ make image
 ```
 
+Push the image to Docker Hub
+
+```
+$ make push
+```
+
 Use the image
 
 ```
