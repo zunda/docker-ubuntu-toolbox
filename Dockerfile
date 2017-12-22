@@ -5,7 +5,9 @@ RUN apt-get update && apt-get install -y \
 	openssl ca-certificates \
 	vim-nox \
 	bsdmainutils \
-	man manpages manpages-dev less
+	man manpages manpages-dev less \
+	iputils-tracepath \
+	nmap
 
 RUN useradd -ms /bin/bash user
 USER user
